@@ -1,7 +1,11 @@
 import random
 
 print("Let's play Cows and Bulls game!")
-
+print("Game rules:")
+print("The computer will generate a random 4-digit number with no duplicate digits and you have to guess it.")
+print("Each correct digit in your quess which is in the correct position means a bull.")
+print("Each correct digit in your guess which is in the wrong position means a cow.")
+print()
 play = "y"
 
 while play == "y":
@@ -105,3 +109,4 @@ while play == "y":
     if play == "n":
         print("Thank you for playing!")
         break
+    print()
